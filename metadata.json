@@ -1,0 +1,6 @@
+{
+  "name": "CS22 Sistemas — ERP e Gestão Empresarial",
+  "description": "Soluções digitais e sistemas ERP da CS22 para controle financeiro, estoque, vendas, e-commerce e gestão empresarial. Tecnologia que move negócios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

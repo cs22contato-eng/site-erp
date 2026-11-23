@@ -1,11 +1,38 @@
-<div align="center">
+# CS22 Sistemas
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Site institucional e comercial da **CS22 Sistemas** — unidade de soluções tecnológicas voltada a sistemas ERP, gestão empresarial, controle financeiro, estoque, e-commerce, loja virtual e ferramentas digitais para diferentes segmentos.
 
-  <h1>Built with AI Studio</h2>
+> **Tecnologia que move negócios.**
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tecnologias
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **React 19** + **TypeScript**
+- **Vite 8**
+- **Tailwind CSS v4**
+- **Lucide React**
 
-</div>
+## Scripts disponíveis
+
+```bash
+# Instalar dependências
+npm install
+
+# Rodar ambiente de desenvolvimento (http://localhost:3000)
+npm run dev
+
+# Executar testes unitários de lógica e catálogo
+npm test
+
+# Validar tipagem TypeScript
+npm run lint
+
+# Gerar build de produção em dist/
+npm run build
+```
+
+## Estrutura principal
+
+- `src/components/` — Seções da página, cabeçalho escuro, rodapé escuro, painel ilustrativo de ERP e modais.
+- `src/utils/cs22Logic.ts` — Catálogo oficial de soluções por segmento, preços de referência, áreas de gestão, FAQ, construtores de links para WhatsApp e validação de formulário.
+- `src/utils/cs22Logic.test.ts` — Testes unitários em `node:test`.
+- `public/assets/aistudio/` — Logotipo e ícone oficial da CS22 Sistemas.
